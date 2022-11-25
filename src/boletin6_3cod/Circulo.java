@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package boletin6_3cod;
 
 /**
@@ -12,50 +8,53 @@ package boletin6_3cod;
  */
 public class Circulo {
 
-    /**
-     * Declaro variables
-     *
-     * radio del circulo
-     * constante PI
-     */
     private double radio;
     private final static double PI = 3.14;
 
-//Creo el constructor vacío
-
+    /**
+     * Constructor por defecto
+     */
     public Circulo() {
 
     }
 
     /**
-     * Constructor
-     * @param r radio
+     * Constructor parametrizado
      *
+     * @param r es el radio del circulo
      */
     public Circulo(double r) {
+
         radio = r;
     }
 
     /**
      * Setter
-     * @param r radio
+     * Da valor al radio del circulo
      *
+     * @param r es el radio del circulo
      */
     public void setRadio(double r) {
+
         radio = r;
     }
 
     /**
      * Getter
-     * @return radio
+     * Retorna el valor del radio del circulo
+     *
+     * @return radio del circulo
      */
     public double getRadio() {
+
         return radio;
     }
 
     /**
      * Getter
-     * @return PI
+     * Retonar valor de PI
+     *
+     * @return PI del circulo
      */
 
     public double getPi() {
@@ -63,8 +62,9 @@ public class Circulo {
     }
 
     /**
-     * Calculo area Circulo
-     * @return area
+     * Metodo que calcula el area del circulo
+     *
+     * @return area del circulo
      */
     public double calcularArea() {
         double area;
@@ -73,8 +73,9 @@ public class Circulo {
     }
 
     /**
-     * Calculo lonxitudeCirculo
-     * @return lonxitude
+     * Metodo que calcula la longitud del circulo
+     *
+     * @return longitud del circulo
      */
     public double calcularLonxitude() {
         double lonxitude;

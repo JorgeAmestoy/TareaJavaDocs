@@ -1,29 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package boletin6_3cod;
 
+/**
+ * Aplicacion para calcular area y longitud de un circulo
+ *
+ * @version 25.11.2022
+ * @Author Jorge Amestoy Sabucedo
+ */
 public class Boletin6_3COD {
 
     public static void main(String[] args) {
 
-        //Instancio objeto Clase Circulo
+        String areaCirculo = "El area es igual a ";
+        String longitudCirculo = "La longitud es igual a ";
+
         Circulo circulo1 = new Circulo();
-        //Doy un valor al radio con Setter
         circulo1.setRadio(5);
-        //Llamo al método que calcula el area
         circulo1.calcularArea();
-        //Creo variable para guardar el resultado del area
         double resultado = circulo1.calcularArea();
-        //Visualiazo el resultado
-        System.out.println("El area es igual a " + resultado);
-        //Llamo al método que calcula la lonxitude
+        System.out.println(areaCirculo + resultado);
         circulo1.calcularLonxitude();
-        //Creo variable para guardar el resultado de la longitud
         double resultado2 = circulo1.calcularLonxitude();
-        //Visualizo el resultado de la longitud
-        System.out.println("La longitud es igual a " + resultado2);
+        System.out.println(longitudCirculo + resultado2);
     }
 
 }
