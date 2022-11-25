@@ -8,11 +8,11 @@ package boletin6_3cod;
  */
 public class Circulo {
     /**
-     * Es una variable que identifica el radio del circulo
+     * Radio del circulo
      */
     private double radio;
     /**
-     * Es una variable con valor fijo
+     * PI del circulo
      */
     private final static double PI = 3.14;
 
