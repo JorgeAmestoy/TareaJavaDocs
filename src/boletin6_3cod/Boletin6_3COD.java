@@ -3,11 +3,16 @@ package boletin6_3cod;
 /**
  * Aplicacion para calcular area y longitud de un circulo
  *
+ * @author Jorge Amestoy Sabucedo
  * @version 25.11.2022
- * @Author Jorge Amestoy Sabucedo
  */
 public class Boletin6_3COD {
-
+    /**
+     * La aplicacion asigna un valor al radio y automaticamente
+     * muestra por consola el resultado del area y la longitud del circulo
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         String areaCirculo = "El area es igual a ";
